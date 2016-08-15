@@ -1,2 +1,2 @@
 # conceptTree
-Module for parsing Excel docs and mapping with D3
+Module for parsing Excel docs and mapping with D3.
