@@ -58,7 +58,7 @@ var vis = d3.select("#body").append("svg:svg")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
 // get flare json
-var flare_json = getParameterByName('flare_json');
+var flare_json = getParameterByName('data');
 d3.json("assets/flare_json/" + flare_json, function(json) {
   root = json;
   root.x0 = h / 2;
