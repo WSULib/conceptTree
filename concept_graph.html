@@ -83,7 +83,7 @@ d3.json("assets/flare_json/" + flare_json, function(json) {
   // Initialize the display to show a few nodes.
   root.children.forEach(toggleAll);
   root.children.forEach(recursiveToggle);
-  for (var i = 0; i < root.children.length; i++) {
+  for (var i = 0; i < root.children.length ; i++) {
     if (i > 0){
       toggle(root.children[i]);
     }

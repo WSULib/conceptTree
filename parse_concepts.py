@@ -9,7 +9,7 @@ from openpyxl import load_workbook
 
 
 def convert_data(data):                                     
-    out = {'name': 'root', 'children': []}           
+    out = {'name': 'Class Themes', 'children': []}           
 
     for row in data:                                 
         out['children'].append({})                   
