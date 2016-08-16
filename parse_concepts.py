@@ -35,7 +35,7 @@ def parse_concepts(f,t):
     flare_dict = convert_data(ws.rows)
     
     # write to file    
-    with open('assets/flare_json/%s' % t) as fhand:
+    with open('assets/flare_json/%s' % t,'w') as fhand:
         fhand.write(json.dumps(flare_dict))
 
 
